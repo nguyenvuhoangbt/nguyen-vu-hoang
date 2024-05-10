@@ -185,6 +185,9 @@ const Form = () => {
   return (
     <form className='bg-[#ffffff80] rounded-lg border-2 border-[#d1d5db4d] p-8 flex flex-col md:w-1/2 mx-4 min-w-[300px] md:max-w-[600px]'>
       <FormControl variant='filled' fullWidth className='flex flex-col gap-8'>
+        <h1 className='text-center text-xl text-[#181818]'>
+          Cryptocurrency Converter Calculator
+        </h1>
         <div className='flex gap-4 md:flex-row flex-col'>
           <Select
             className='basic-single flex-[1.5]'
